@@ -1,22 +1,14 @@
-@import url(bootstrap.css);
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans|Orbitron|Raleway|Roboto|Ultra&display=swap');
-.index-0{
+
+.item-bottom{
     position: absolute;
-    z-index: 0;
+    top: 378px;
 }
-.index-2{
-    position: relative;
-    z-index: 2;
-}
-.center{
-    align-items: center;
-}
-.container{
-    color: #1878f0;
-    font-family: 'Roboto';
-}
-.trasparency img{
-    opacity: 0.1;
-    filter: alpha(color); /* For IE8 and earlier */
-    padding: 0px !important;
+.img-title{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 20%;
+    letter-spacing: 3px;
   }
