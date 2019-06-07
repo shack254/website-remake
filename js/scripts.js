@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    debugger;
     $(".design").click(function(){
         $("#design-hide").fadeIn();
         $("#design").fadeOut();
@@ -24,4 +23,5 @@ $(document).ready(function(){
         $("#product-hide").fadeOut();
         $("#product").fadeIn();
     });
+
 });
