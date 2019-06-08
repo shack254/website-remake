@@ -116,7 +116,7 @@
             <div class="row">
                 <div class="col">
                     <img src="img/backgrounds/c_image.jpg" class="img-fluid" alt="contact us">
-                    <div class="img-title">
+                    <div class="img-title" id="contact us">
                         <h2>CONTACT US</h2>
                         <form>
                             <div class="form-row">
@@ -127,9 +127,16 @@
                                 <input type="text" class="form-control" placeholder="Last name" id="email"><br>
                                 </div>
                                 <div class="input-group">
-                                    <textarea class="form-control" type="text" aria-label="With textarea" placeholder="massage"></textarea>
+                                    <textarea class="form-control" id="massage" type="text" aria-label="With textarea" placeholder="massage"></textarea>
                                  </div>
                                 </div>
+                                <button type="submit" class="btn">Submit</button>
+                            </div>
+                            <div class="alert alert-success" id="alert" role="alert">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                                <strong class="d-block d-sm-inline-block-force">Well done!</strong> You successfully read this important alert message.
                             </div>
                         </form>
                     </div>
@@ -137,6 +144,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="js/jQuery.js"></script>
     <script src="js/scripts.js"></script>
 </body>

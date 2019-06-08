@@ -23,5 +23,11 @@ $(document).ready(function(){
         $("#product-hide").fadeOut();
         $("#product").fadeIn();
     });
-
+    $("form").submit(function(){
+       var inputs = ["name","email","person"];
+       inputs.forEach(function(input){
+           var userinputs = $("input#" + input).val();
+           $(input).text(userinputs);
+       });
+    });
 });
