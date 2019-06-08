@@ -51,3 +51,9 @@
 .over-lay:hover .project-titie {
     opacity: 1;
 }
+input[type="text"]{
+    background: transparent;
+}
+textarea[type="text"]{
+    background: transparent;
+}
