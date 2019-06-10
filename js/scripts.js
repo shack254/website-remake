@@ -28,8 +28,8 @@ $(document).ready(function(){
         $(".project-titie").animate({opacity:'1'});
         },
         function () {
-        $(".text-apperance").animate({opacity:'0.5'});
-    })
+        $(".text-apperance").animate({opacity:'0.5'})
+    });
     $("#submittion").submit(function(event){
         var name = $("input#name").val();
         var email =$("input#email").val();
