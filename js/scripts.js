@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $(".design").click(function(){
         $("#design-hide").fadeIn();
@@ -23,11 +24,16 @@ $(document).ready(function(){
         $("#product-hide").fadeOut();
         $("#product").fadeIn();
     });
-    $("form").submit(function(){
-       var inputs = ["name","email","person"];
-       inputs.forEach(function(input){
-           var userinputs = $("input#" + input).val();
-           $(input).text(userinputs);
+    $("#submittion").submit(function(event){
+        var name = $("input#name").val();
+        var email =$("input#email").val();
+        var message=$("input#message").val();
+        if(name && email && message != " " ){
+            alert( "message confirmed");
+        }
+        else{
+            alert("invalid");
+        }
+        event.preventDefault();
        });
-    });
 });
